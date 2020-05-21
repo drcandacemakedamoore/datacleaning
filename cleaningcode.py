@@ -67,3 +67,7 @@ df_nodupesornans.drop(columns= 'name')
 #show me unique in a column
 
 df_nodupesornans['patient'].unique()
+
+#let's say we want to change a value here, then check by printing the head
+df_cleaned= df_nodupesornans.replace('BF6EA5AF', 'crazy_patient')
+df_cleaned.head(10)
