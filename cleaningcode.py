@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # step 2 is to load up the actual data into a dataframe we will call 'df'
 #here is an example without the path: df = pd.read_csv (r'Path where the CSV file is stored\File name.csv') but now for real:
 
-df = pd.read_csv('C:/Users/makeda/programming/fakepatients.csv')
+df = pd.read_csv('fakepatients.csv')
 
 # the next step, step 3, part one, is to check we loaded by looking at say 20 elements- taking a peek
 print (df.head(20))
