@@ -1,5 +1,5 @@
-
 # Cleaning up data and'skimming/peeing' at data in Python, step by step
+
 # Step 1 is to load the right libraries
 
 import pandas as pd
@@ -7,8 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # step 2 is to load up the actual data into a dataframe we will call 'df'
-#here is an example without the path:
-#df = pd.read_csv (r'Path where the CSV file is stored\File name.csv') but now for real:
+#here is an example without the path: df = pd.read_csv (r'Path where the CSV file is stored\File name.csv') but now for real:
 
 df = pd.read_csv('C:/Users/makeda/programming/fakepatients.csv')
 
@@ -18,7 +17,6 @@ print (df.head(20))
 # and/or peek at the end of the list
 
 print(df.tail(20))
-
 
 #step 4 is to get details on the whole csv table
 print('The column names on the table are:',df.columns)
