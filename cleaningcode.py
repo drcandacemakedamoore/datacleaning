@@ -44,3 +44,28 @@ if df.duplicated().any() == True:
 duplicateRowsDF = df[df.duplicated(['Patient name'], keep = False)]
  
 print("Duplicate Rows based on a single column are:", duplicateRowsDF, sep='\n')
+
+#lets see how many NaNs (here interchangeable with null ) we have in the table
+df.isnull().sum()
+
+#let's assume we can drop the duplicates, and do so
+df_nodupe = df.drop_duplicates().reset_index(drop = True)
+
+#check the duplicated in the new df
+df_nodupe.duplicated().sum()
+
+#drop from the new df the Nans
+df_nodupesornans = df_nodupe.dropna()
+
+#verify it is clean
+df_nodupesornans.isna().sum()
+
+#let's change the column_names
+df_nodupesornans.set_axis(['patient','age','name','condition','image_type','time'], axis= 'columns', inplace = True)
+
+# actually lets also drop the name column, seems like a good idea
+df_nodupesornans.drop(columns= 'name')
+
+#show me unique in a column
+
+df_nodupesornans['patient'].unique()
