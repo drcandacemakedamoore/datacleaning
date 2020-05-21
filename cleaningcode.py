@@ -71,3 +71,55 @@ df_nodupesornans['patient'].unique()
 #let's say we want to change a value here, then check by printing the head
 df_cleaned= df_nodupesornans.replace('BF6EA5AF', 'crazy_patient')
 df_cleaned.head(10)
+
+#let's say we want to change a value here, then check by printing the head
+df_cleaned= df_nodupesornans.replace('BF6EA5AF', 'crazy_patient')
+df_cleaned.head(10)
+
+#let's sort by some value we care about 
+print(df_cleaned.sort_values(by= 'age'))
+
+#let's look at some of the values, and do some basic math and see what we learn
+print(df_cleaned['age'].sum())
+print(df_cleaned['age'].mean())
+print(df_cleaned['age'].max())
+print(df_cleaned['age'].min())
+
+# let's start grouping data
+grouped_by_condition = df_cleaned.groupby('condition')
+
+#let's count by groups
+grouped_by_condition.count()
+
+# lets sum inside groups
+grouped_by_condition.sum()
+
+# lets graph it up
+aging = df_cleaned.sort_values(by= 'age')
+print(aging)
+plt.plot('age','time', 'bo', data = aging )
+
+# we found more bad data so now let's really cleean up + graph:
+aging.time = pd.to_numeric(aging.time, errors='coerce')
+aging.dropna(subset=('time',), inplace=True)
+newdf= aging
+print(aging.time)
+print(newdf)
+plt.plot('age','time', 'bo', data = newdf)
+
+#further cleaning
+cap_CT= newdf.replace('ct', 'CT')
+cap_XR = cap_CT.replace('xr', 'XR')
+cleaner = cap_XR.replace('mri', 'MRI')                       
+print(cleaner)
+
+#show parameters of new dataframe cleaner
+print(cleaner)
+print('The column names on the table are:',cleaner.columns)
+print("The table has x entries with y data points- x,y here are:", cleaner.shape)
+print("Let's see the types of data:", cleaner.dtypes)
+print("The whole thing is ",cleaner.info)
+
+#plot with groupby- images versus instances for unique age- here note the highes number is 7, and how whimsical and absurd
+cleaner.groupby('image_type')['age'].nunique().plot(kind='bar')
+plt.show()
