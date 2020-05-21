@@ -1,0 +1,102 @@
+ patient_id,age,Patient name,condition,imaging_done,wait time
+BF6EA5AF,30.95046269,Marina Rei,HTN,XR,1
+FB1E568E,94.327,Stive Morgan,anemia,CT,2
+FB1E568E,94.327,Stive Morgan,sickle cell anemia,ct,3
+EF15C7BA,2.988666667,,CRF,ct,4
+82F52E69,64.59210884,Rixton Moore,HTN,ct,5
+4166D680,1.002333333,Henry Band,copd,MRI,6
+F4F5677,0.033333333,,obesity,,7
+386FE1ED,70.62666667,,asthma,xr,8
+A5E0D927,1.053666667,Andrew Paul Woodworth,HTN,xr,9
+E9E8A0CA,91.46333333,Pillar Point,COVID,xr,9
+D3DD8D00,2.945333333,Steve Campbell,copd,xr,
+596A4517,0,David Civera,HTN,MRI,12
+2E50EDF9,81.68,Lumipa Beats,hiatal hernia,xr,12
+79D2876C,0.666666667,Henning Wehland,HTN,xr,12
+5A3095E,0,,,,12
+96DA13A1,0,Dani Berstien,spoken,MRI,12
+4023830D,15.62833333,Chin Kong,CRF,xr,12
+AEAEF451,5,Albatraoz,HTN,xr,12
+285648EF,0.033333333,Panama Atom,CRF,xr,12
+34811AC9,2.333333333,Zak Moore,CRF,ct,12
+892E9835,24.35454033,Kendra Springer,psychiatric,ct,1
+46EB28CD,28.318,Nathalie Cardone,CHF,ct,21
+919EFA26,30.22657411,Snowday,CRF,ct,21
+A76F54E1,8.043297778,Sword Life,COVID,MRI,21
+94E73621,2.703148707,Montezuma Rubio,extremeobesity,MRI,12
+13C442BF,72.33333333,,CRF,MRI,1
+C4AF055B,0,,,,12
+A6D6DBE7,69.607611,Duerte Roger,Bechet's syndrome,MRI,1
+9C97ECE2,71.41877567,Allen Lide,CRF,Don't Hurt Me,22
+DD08E7D1,9.054963,Peter Holzmann,diabetes,MRI,324
+22642B7C,9.624333333,Heathers,breast CA,CT,23
+90004D45,1.084333333,Irisha Almoni,CRF,ct,3
+8DA2ADAC,53.66666667,Tigerlily Ortiz,CRF,ct,
+65608E7C,0.033333333,Orinoco Haven,HTN,ct,
+A7BA3C55,0,Hilario Rivera Gomez,CHF,ct,
+D8B3971,44.70420833,,anemia,ct,
+C087E463,3.066666667,Yand Chow,hiphop,MRI,
+CADC0B1A,16.33333333,Sen-dla Lotus,german measles,ct,
+A6152E0B,254.64,Merwan Rim,fanconi's anemia,ct,
+29BBA33D,3.663452815, Theresa Ghosts,anemia,ct,
+2FBD8201,0.1,,,,
+2F4F0630,0.1,Jeremy Spencer,HTN,ct,
+FD36A727,1.46458901,Rubix Cube,diabetes,ct,
+4D8D4370,248,Luca Turilli's Rhapsody,obesity,ct,
+38C55DA7,63.2918896,Chen Soto,asthma,MRI,
+4AD7F9E2,0.1,Lou Reed,anemia,ct,
+F1014BD5,202.13551,Emanuel Borok Cullan Bryant,diabetes,ct,
+B39466EE,0.1,,,,
+EE908C06,84.51917633,Echoes The Fall,HTN,ct,
+C484328A,6,Philis Dillan,anemia,ct,
+1D1186AA,378.644898,Oleg Moore,anemia,xr,
+58D5A9C7,0.872,,CRF,xr,
+CC23B61,79.389,Ming,diabetic foot,xr,
+D9111D79,108.199175,Zenobia Joko,asthma,MRI,
+C4C63D22,163.631,Limousine Lady,breast CA,xr,
+D52D00EA,8.443,Candace Sivokon,HTN,MRI,MRI
+61AAFD2A,30.012834,Ricardo Piedra,hyperalgesia,xr,
+1602CC14,235.075918,Guy Moore,asthma,XR,
+F2EF24F8,177.29,Hello Yeye,anemia,MRI,
+A40236D7,43,Nicola Sextet,HTN,MRI,
+6C936B97,270,Heronmimous Bosch,anemia,MRI,
+220A6FF8,45.54766667,Masmusem Maslam,new,ct,
+616A5F7D,9.474791027,Rubio Marco,miscellaneous,ct,
+BBFBFE04,0.562333333,Doc Dre,CRF,ct,
+14313BCE,1.257666667,Matt Sadler,bizzare diagnosis,ct,
+8808CC9B,9.333333333,Loon,colon CA,ct,
+89F8A4B6,2.556666667,Indecent Noise,,xr,
+97735D6D,10.10133333,Domo Wilson,anemia,ct,
+52626181,0,Blex,hyperlipedemia,xr,
+8431D955,75,Cypress Spring,CHF,ct,
+EA665694,0,Кооперативыништяк,CHF,xr,
+8AA53E75,113.9461223,Lionanemia,CRF,ct,
+1E20AB1B,1.848819,Shirley Holmes,breast CA,xr,
+61B6E597,31.503,KHARO,colon CA,xr,
+C9AC9D32,1.744,Koufequin,CHF,xr,
+7B171AAB,0,Xavier Sota,ruscolon CA,MRI,
+DF8619AE,6.333333333,NeuRuTics,breast CA,MRI,
+9AE82E5C,0.338,Ritmo Natural,copd,ct,
+20B8C4FB,70.52190467,Kake Randelin,HTN,xr,
+C22BEA45,63.68433333,Seri Black,extremeobesity,ct,
+BF32936D,1.31281,Ana Cañas,kidney stones,xr,
+FA279DD2,0.507917667,Patient name,HTN,xr,
+714A9114,0.782231667,Delroy Edwards,asthma,xr,
+A76BB012,8.427666667,Otto Van Bismark,CRF,ct,
+5B68BDDC,72.27333333,Maurice Moore,kidney stones,xr,
+F6939D17,62.33333333,Aaliyah Palmen,HTN,xr,
+AC0AF747,0.033333333,Dadan Chan,HTN,xr,
+8.18E+51,1.666666667,Blinding Lights,diabetes,xr,
+C527ADCF,2.855333333,Stephen Provost,asthma,xr,
+CCAF9FD9,1.157538667,,diabetes,xr,
+BB5B3AA4,71.47102033,Altimbankya Ortiz,obesity,xr,
+BEA65D35,65.12326533,Susanna Hoffs,anemia,xr,
+5D9AAD37,0.339915,Bomba Titinka,,xr,
+926DE999,0,Soliv Vofi,asthma,xr,
+A2CC841A,1.06811224,Walter Kemp3oh!,copd,ct,
+4B1EEB5,74.66733333,Tristan Islador,asthma,xr,
+7F38A6F8,16.68,D. Rogers,HTN,xr,
+510D9BEE,71.00158472,Tapani Kansa,HTN,xr,
+A95CC18E,10.56533333,Sofi Lapina,HTN,xr,
+9224DF40,44.99133333,Nino Nardini,hyperlipedemia,xr,
+9224DF40,44.99133333,Nino Nardini,hyperlipedemia,xr,
