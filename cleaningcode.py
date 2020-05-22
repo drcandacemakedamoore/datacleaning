@@ -1,5 +1,4 @@
 # Cleaning up data and'skimming/peeing' at data in Python, step by step
-
 # Step 1 is to load the right libraries
 
 import pandas as pd
@@ -34,7 +33,7 @@ df.duplicated().sum()
 if df.duplicated().any() == True:
     print(df)
     
- # we may want to select all duplicate rows based on one column- example here is Patient name
+# we may want to select all duplicate rows based on one column- example here is Patient name
 # note the arg keep can be set to 'first', 'last' or False- 
 #           keep denotes the occurrence which should be marked as duplicate
 #           False - show me all of them
@@ -120,6 +119,6 @@ print("The table has x entries with y data points- x,y here are:", cleaner.shape
 print("Let's see the types of data:", cleaner.dtypes)
 print("The whole thing is ",cleaner.info)
 
-#plot with groupby- images versus instances for unique age- here note the highes number is 7, and how whimsical and absurd
+#plot with groupby- images versus instances for unique age- here note the highest number is 7, and (therefore) how whimsical and absurd
 cleaner.groupby('image_type')['age'].nunique().plot(kind='bar')
 plt.show()
